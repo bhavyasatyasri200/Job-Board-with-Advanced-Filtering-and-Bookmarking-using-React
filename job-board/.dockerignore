@@ -1,0 +1,19 @@
+# .dockerignore
+
+# Why .dockerignore?
+# - Reduces build context size
+# - Faster builds (less data to send to Docker daemon)
+# - Prevents unnecessary files in image
+# - Similar to .gitignore but for Docker
+
+node_modules
+npm-debug.log
+dist
+.git
+.gitignore
+README.md
+.env
+.env.local
+.DS_Store
+.vscode
+.idea

@@ -1,0 +1,36 @@
+# docker-compose.yml
+
+# Why Docker Compose?
+# - Single command to build and run: docker-compose up
+# - Manages networking, volumes, and services
+# - Environment configuration
+# - Easy to scale and manage
+
+version: '3.8'
+
+services:
+  app:
+    # Build from local Dockerfile
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
+    # Container name
+    container_name: job-board-app
+    
+    # Port mapping: host:container
+    # Access at http://localhost:3000
+    ports:
+      - "3000:80"
+    
+    # Health check
+    # Docker will mark service as "healthy" when this succeeds
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    
+    # Restart policy
+    restart: unless-stopped
