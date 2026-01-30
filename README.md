@@ -145,12 +145,9 @@ From the project root directory, run:
 ```bash
  git clone https://github.com/bhavyasatyasri200/Job-Board-with-Advanced-Filtering-and-Bookmarking-using-React.git
 
-```bash
  cd Job-Board-with-Advanced-Filtering-and-Bookmarking-using-React
 
-```bash
  cd job-board
 
-```bash
 docker-compose up -d --build
 
