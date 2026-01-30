@@ -84,7 +84,7 @@ Job-Board-with-Advanced-Filtering-and-Bookmarking/
 ├── package.json
 ├── tailwind.config.js
 └── README.md
-
+```
 
 ---
 
