@@ -1,6 +1,7 @@
 # Job Board with Advanced Filtering and Bookmarking
 
 **Live Demo:** https://regal-fox-fb1f59.netlify.app/
+---
 **Video Demo:** https://youtu.be/7Dv3qVZZyQk
 
 A multi-page Job Board application built using **React (Vite)** and **Zustand**, featuring advanced client-side filtering, searching, sorting, pagination, and bookmarking. The project is fully containerized using **Docker** and can be executed with a single command.
