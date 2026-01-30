@@ -51,31 +51,32 @@ This project simulates a real-world job portal where users can efficiently brows
 
 ## 📁 Folder Structure
 
+```bash
 Job-Board-with-Advanced-Filtering-and-Bookmarking/
 ├── public/
-│ └── index.html
+│   └── index.html
 │
 ├── src/
-│ ├── components/
-│ │ ├── JobCard.jsx
-│ │ ├── JobList.jsx
-│ │ ├── FiltersPanel.jsx
-│ │ ├── SearchBar.jsx
-│ │ ├── Pagination.jsx
-│ │ └── ViewToggle.jsx
-│ │
-│ ├── pages/
-│ │ ├── Home.jsx
-│ │ └── Tracker.jsx
-│ │
-│ ├── store/
-│ │ └── jobStore.js
-│ │
-│ ├── data/
-│ │ └── mock-data.json
-│ │
-│ ├── App.jsx
-│ └── main.jsx
+│   ├── components/
+│   │   ├── JobCard.jsx
+│   │   ├── JobList.jsx
+│   │   ├── FiltersPanel.jsx
+│   │   ├── SearchBar.jsx
+│   │   ├── Pagination.jsx
+│   │   └── ViewToggle.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   └── Tracker.jsx
+│   │
+│   ├── store/
+│   │   └── jobStore.js
+│   │
+│   ├── data/
+│   │   └── mock-data.json
+│   │
+│   ├── App.jsx
+│   └── main.jsx
 │
 ├── .env.example
 ├── Dockerfile
