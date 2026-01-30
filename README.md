@@ -1,3 +1,4 @@
+**Hosting
 ```
-Hosting : https://regal-fox-fb1f59.netlify.app/
+https://regal-fox-fb1f59.netlify.app/
 ```
